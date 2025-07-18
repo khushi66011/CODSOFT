@@ -20,7 +20,7 @@ def generate_password(length, complexity):
     lowercase = string.ascii_lowercase
     uppercase = string.ascii_uppercase
     digits = string.digits
-    symbols = '@#$%&*!?_'
+    symbols = '@#$%&*!?_<>./'
 
     required_chars = []
     all_chars = ""
